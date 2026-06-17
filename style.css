@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Lato:wght@300;400;700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #edf2f4;
+    width: 100%;
+    align-items: center;
+    padding-right: 30px;  
+    box-sizing: border-box; 
+} 
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+header ul li a{
+    font-size: 20px;
+    color: #669BBC;
+    font-family: 'Lato', sans-serif;
+}
+
+ img{ width: 150px;
+}  
+
+h1{background-image: url(https://i.pinimg.com/736x/a5/be/91/a5be91ab484ae34d83801aa51e45ba71.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    font-size: 150px;       
+    color: #669BBC;
+    font-family: 'Outfit', sans-serif;
+    padding: 60px 40px;     
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;  
+}
+
+
+.contenedor0-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 50px;
+    background-color: #edf2f4;  
+    color: #003049;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: #669BBC;
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    color: #003049;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.caja {
+    background-color: #ffffff; 
+    border-radius: 10px;       
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+    height: 100%;
+    text-align: center;
+    
+}
+
+.caja:hover {
+    transform: translateY(-5px);
+}
+
+.caja img {
+    max-width: 120px;
+
+    margin-bottom: 15px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fdfad5; 
+    background-image: 
+        linear-gradient(rgba(0, 102, 204, 0.2) 0.5px, transparent 0.5px),
+        linear-gradient(90deg, rgba(0, 102, 204, 0.2) 0.5px, transparent 0.5px);
+    background-size: 24px 24px; 
+}
+
+.galeria-actividades {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.galeria-actividades img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.texto-actividad {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 20px 0 20px;
+    line-height: 1.8;
+    border-top: 2px solid #669BBC
+}
+
+.galeria-calendario {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.galeria-calendario img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.texto-calendario {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 20px 0 20px;
+    line-height: 1.8;
+    border-top: 2px solid #669BBC;
+}
+
+.texto-mentores {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 20px 0 20px;
+    line-height: 1.8;
+    border-top: 2px solid #669BBC;
+}
+
+.texto-recursos {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 20px 0 20px;
+    line-height: 1.8;
+    border-top: 2px solid #669BBC;
+}
+
+.texto-contactos {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 20px 0 20px;
+    line-height: 1.8;
+    border-top: 2px solid #669BBC;
+}
+
+
+
+.bloque-seccion {
+    width: 100%;
+    padding: 60px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edf2f4;
+    color: #003049;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.bloque-claro {
+    background-color: #ffffff;
+}
+
+.bloque-oscuro {
+    background-color: #edf2f4;
+}
+
+#contacto {
+    display: none;
+}
+
+.btn-primary {
+    background-color: #003049 !important;
+}
+
+.btn-primary:hover {
+    background-color: #00203a !important;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    header ul li {
+        font-size: 15px;
+    }
+
+    /* BANNER H1 */
+    h1 {
+        font-size: 50px;
+        min-height: 250px;
+        padding: 40px 20px;
+    }
+
+    /* SECCIÓN ESTUDIANTES */
+    .contenedor0-texto {
+        padding: 30px 20px;
+    }
+
+    /* BLOQUES */
+    .bloque-seccion {
+        padding: 40px 20px;
+    }
+
+    /* GALERÍAS Y TEXTOS */
+    .galeria-actividades,
+    .galeria-calendario {
+        max-width: 100%;
+    }
+
+    .galeria-actividades img,
+    .galeria-calendario img {
+        height: 220px;
+    }
+
+    .texto-actividad,
+    .texto-calendario,
+    .texto-mentores,
+    .texto-recursos,
+    .texto-contactos {
+        max-width: 100%;
+        padding: 15px 15px 0 15px;
+        margin: 20px auto;
+    }
+
+    /* IMAGEN GLOBAL - el que te rompía todo */
+    img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    header img { width: 150px; }
